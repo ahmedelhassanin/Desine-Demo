@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_item_about"
+            android:icon="@drawable/ic_place"
+            android:title="About" />
+    </group>
+
+    <item android:title="communication"
+         >
+        <menu>
+            <item
+
+                android:icon="@drawable/ff"
+
+                android:title="Facebook" />
+            <item
+
+                android:icon="@drawable/tt"
+
+                android:title="Twitter" />
+
+
+            <item
+
+                android:icon="@drawable/mm"
+
+                android:title="Send Email" />
+        </menu>
+    </item>
+
+    <item android:title="Department"
+        android:checked="true"
+        android:icon="@drawable/ic_image"   >
+        <menu>
+            <item
+
+                android:icon="@drawable/hhh"
+                android:title="Restaurants" />
+            <item
+
+                android:icon="@drawable/cc"
+                android:title="Cafes" />
+
+
+            <item
+                android:icon="@drawable/dd"
+
+                android:title="Dessert" />
+        </menu>
+    </item>
+
+
+
+</menu>
